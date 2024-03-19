@@ -1,13 +1,66 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeee;
+  height: auto;
+  overflow-x:hidden;
+}
+link{
+  text-decoration: none;
+  color:none;
+}
+a{
+  text-decoration: none;
+  color:white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*-----------------------navbar----------------------- */
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(95, 2, 2, 0.904);
+  height: 40px;
+  font-size: 1.3rem;
+  font-family: 'Mplus 1p', sans-serif;
+  font-weight: 100;
 }
+
+.nav-items{
+  display: flex;
+  align-items: center;
+}
+
+/*---------------------navbar end  ------------------------- */
+
+/*----------------------Cart Page--------------------------*/
+.container {
+  background: linear-gradient(to bottom, rgb(138, 54, 54), rgba(108, 108, 108, 1)); /* Vertical gradient */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container{
+  width: 80%;
+  height: 80%;
+  background-color: rgb(193, 154, 154);
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  background-color: none;
+}
+.cart-text{
+  display: flex;
+  justify-content: center;
+
+}
+
+.continue-shopping-button{
+  background-color: rgb(134, 78, 78);
+  border: 2px solid black; 
+  color: white;
+}
+/*----------------------Cart PAge End--------------*/
