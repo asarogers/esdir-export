@@ -1,38 +1,304 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  background-color: #eeee;
+  height: auto;
+  overflow-x:hidden;
+}
+link{
+  text-decoration: none;
+  color:none;
+}
+a{
+  text-decoration: none;
+  color:white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*-----------------NAVBAR START --------------------- */
+/* display flex is what formats the */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.exclusive-text{
+  width:3vw;
+  margin-right: 15vw;
+  font-weight: 1000;
+  font-size: 4vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.exclusive-text:hover{
+  color: rgb(243, 159, 4) !important;
+  cursor: pointer;
+}
+/* */
+.cart-counter{
+  position: "absolute";
+  z-index: 2;
+  top: 0;
+  right: 3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signIn-text{
+  width: 3vw;
+  font-weight: 600;
+  font-size: 4vw;
+  font-family: 'roboto,arial,verdana,sans-serif';
+}
+
+.Order-text{
+  font-weight: 600;
+  font-size: 4vw;
+  margin-left: 0.5rem;
+}
+.navbar{
+  display: flex !important;
+  background-color: rgb(0, 6, 1);
+  justify-content: space-around !important;
+  align-items: center; /* align vertical */
+  color: white;
+}
+
+/* This controls the cart css*/
+.cart span:nth-child(1){
+  position: relative;
+  top: -1.5vh;
+  left:-3vw;
+  font-size: 1.7vw;
+}
+.cart span:nth-child(1):hover{
+  cursor: pointer;
+  color: rgb(246, 166, 17) !important;
+  transition: color 500ms ease;
+}
+
+.menu span:nth-child(1){
+  font-size: 7vw;
+  color: white;
+}
+
+.menu span:nth-child(1):hover{
+  cursor: pointer;
+  color: rgb(246, 166, 17) !important;
+  transition: color 500ms ease;
+}
+.offscreen{
+  position: absolute;
+  left: 1000px;
+}
+
+.call-text:hover{
+  cursor: pointer;
+  color: rgb(246, 166, 17) !important;
+  transition: color 500ms ease;
+}
+
+.exclusive-text:hover{
+  color: rgb(246, 166, 17) !important;
+  transition: color 500ms ease;
+} 
+
+.signIn-text:hover{
+  cursor: pointer;
+  color: rgb(246, 166, 17) !important;
+  transition: color 500ms ease;
+}
+.Order-text:hover{
+  cursor: pointer;
+  color: rgb(246, 166, 17) !important;
+  transition: color 500ms ease;
+}
+/*-----------------NAVBAR END --------------------- */
+
+.frame {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .overlap-wrapper {
+  background: linear-gradient(180deg, rgba(211.14, 144.52, 144.52, 0.28) 0%, rgba(108.14, 108.14, 108.14, 0.28) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  height: 864.88px;
+  width: 1288.02px;
+}
+
+.frame .overlap {
+  height: 850px;
+  position: relative;
+  width: 1288px;
+}
+
+.frame .overlap-group {
+  height: 850px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1288px;
+}
+
+.frame .rectangle {
+  background-color: #d9d9d90d;
+  height: 719px;
+  left: 129px;
+  position: absolute;
+  top: 130px;
+  width: 1029px;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "Mplus 1p-Medium", Helvetica;
+  font-size: 33.9px;
+  font-weight: 500;
+  left: 256px;
+  letter-spacing: 16.93px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 186px;
+  width: 748px;
+}
+
+.frame .line {
+  height: 2px;
+  left: 222px;
+  position: absolute;
+  top: 276px;
+  width: 816px;
+}
+
+.frame .img {
+  height: 2px;
+  left: 222px;
+  position: absolute;
+  top: 156px;
+  width: 816px;
+}
+
+.frame .div {
+  background-color: #d9d9d926;
+  box-shadow: 6.77px 6.77px 6.77px #00000040;
+  height: 64px;
+  left: 592px;
+  position: absolute;
+  top: 349px;
+  width: 445px;
+}
+
+.frame .rectangle-2 {
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.15) 0%, rgba(115, 115, 115, 0.15) 100%);
+  box-shadow: 10.16px 10.16px 6.77px #00000040;
+  height: 64px;
+  left: 222px;
+  position: absolute;
+  top: 349px;
+  width: 344px;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Mplus 1p-Medium", Helvetica;
+  font-size: 33.9px;
+  font-weight: 500;
+  left: 222px;
+  letter-spacing: 1.69px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 347px;
+  width: 344px;
+}
+
+.frame .rectangle-3 {
+  background-color: #d9d9d926;
+  box-shadow: 6.77px 6.77px 6.77px #00000040;
+  height: 64px;
+  left: 592px;
+  position: absolute;
+  top: 501px;
+  width: 445px;
+}
+
+.frame .rectangle-4 {
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.15) 0%, rgba(115, 115, 115, 0.15) 100%);
+  box-shadow: 10.16px 10.16px 6.77px #00000040;
+  height: 64px;
+  left: 222px;
+  position: absolute;
+  top: 501px;
+  width: 344px;
+}
+
+.frame .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Mplus 1p-Medium", Helvetica;
+  font-size: 33.9px;
+  font-weight: 500;
+  left: 222px;
+  letter-spacing: 1.69px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 499px;
+  width: 344px;
+}
+
+.frame .rectangle-5 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.32) 0%, rgba(153, 153, 153, 0.32) 100%);
+  border-radius: 10.16px;
+  box-shadow: inset 0px 6.77px 6.77px #00000040, 0px 6.77px 6.77px #00000040;
+  height: 96px;
+  left: 511px;
+  position: absolute;
+  top: 653px;
+  width: 237px;
+}
+
+.frame .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Mplus 1p-Medium", Helvetica;
+  font-size: 27.1px;
+  font-weight: 500;
+  left: 520px;
+  letter-spacing: 8.12px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 6.77px 6.77px 6.77px #00000040;
+  top: 677px;
+  width: 220px;
+}
+
+.frame .AAMU-logo-picture {
+  height: 147px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 146px;
+}
+
+.frame .AAMU-logo-picture-2 {
+  height: 147px;
+  left: 1142px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 146px;
+}
+
+.frame .text-wrapper-5 {
+  color: #00000057;
+  font-family: "Mplus 1p-Light", Helvetica;
+  font-size: 33.9px;
+  font-weight: 300;
+  left: 174px;
+  letter-spacing: 33.85px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 6.77px 10.16px 6.77px #00000040;
+  top: 37px;
+  width: 939px;
 }
