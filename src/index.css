@@ -63,4 +63,76 @@ a{
   border: 2px solid black; 
   color: white;
 }
-/*----------------------Cart PAge End--------------*/
+/*----------------------Cart Page End--------------*/
+
+/*----------------------home page------------------------*/
+.home-container{
+  background: linear-gradient(to bottom, rgb(160, 0, 0), rgba(108, 108, 108, 1)); /* Vertical gradient */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+}
+.map-container{
+  float: right;
+  background-color: rgb(189, 154, 154);
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25pt;
+}
+
+.location-container{
+  float: left;
+  background-color: rgb(49, 19, 19);
+  width: 50vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+.location-form{
+  background-color: rgb(90, 51, 51);
+  height: 70%;
+  width: 85%;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.form-items{
+  font-size: 1.1rem;
+  font-family: 'Mplus 1p', sans-serif;
+  font-weight: 50;
+  width: 75%;
+}
+
+.form-items-text{
+  color:white;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form-input{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.btn-cartpage{
+  margin-top: 30px;
+  font-size: 15pt;
+  padding: 15px;
+  background-color: rgb(142, 101, 101);
+  border: none;
+  border-radius: 5px;
+}
+/*----------------------home page eng-----------------------*/

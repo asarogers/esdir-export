@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 const Cart = ({ order, setOrder, robotPosition, setRobotPosition }) => {
 
   return (
-    <>
+
       <div >
           <Navbar />
           <div className="container">
@@ -16,7 +16,6 @@ const Cart = ({ order, setOrder, robotPosition, setRobotPosition }) => {
             </div>
           </div>
       </div>
-    </>
   );
 };
 
