@@ -13,6 +13,9 @@ a{
   color:white;
 }
 
+button{
+  cursor: pointer;
+}
 /*-----------------------navbar----------------------- */
 .navbar{
   display: flex;
@@ -62,6 +65,10 @@ a{
   background-color: rgb(134, 78, 78);
   border: 2px solid black; 
   color: white;
+}
+.continue-shopping-button:hover{
+  background: rgb(105, 59, 59);
+  transition: background 500ms ease;
 }
 /*----------------------Cart Page End--------------*/
 
@@ -131,8 +138,234 @@ a{
   margin-top: 30px;
   font-size: 15pt;
   padding: 15px;
-  background-color: rgb(142, 101, 101);
+  background: rgb(142, 101, 101);
   border: none;
   border-radius: 5px;
 }
+
+
 /*----------------------home page eng-----------------------*/
+
+/*----------------------Admin Page--------------------------*/
+.aamu-logo{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.aamu-logo{
+  position: absolute;
+  width: 125px;
+  height: 90px;
+  margin-top: 5px;
+}
+.algin-right{
+  right: 0
+}
+.admin-container {
+  background: linear-gradient(to bottom, rgb(138, 54, 54), rgba(108, 108, 108, 1)); /* Vertical gradient */
+  width: 100vw;
+  height: 100vh;
+  min-height: 550px;
+}
+
+.admin-text{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 35pt;
+  font-family: 'Mplus 1p', Arial, Helvetica, sans-serif;
+  letter-spacing: 15px;
+  color: rgba(245, 245, 245, 0.784);
+}
+
+.admin-body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.admin-upload-body{
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+  background-color: rgb(97, 25, 25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider{
+  margin: 25px;
+  border: 1.69px #FFBBBB solid;
+  width: 90%;
+}
+
+.admin-upload-text{
+  color: white;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25pt;
+  letter-spacing: 5px;
+}
+
+.upload-items{
+  width: 90%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22pt;
+}
+
+.item-label{
+  width: 40%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7b0b0ee;
+  color: #eeee;
+}
+
+.item-input{
+  width: 57%;
+  height: 45px;
+  background-color: #b7b0b0ee;
+  align-self: flex-end;
+  border:none;
+  
+}
+
+.admin-button{
+  background-color: rgb(101, 91, 91);
+  color: white;
+  font-size: 20pt;
+  letter-spacing: 2px;
+}
+
+.admin-button:hover{
+  background-color: rgb(66, 65, 65);
+  color: white;
+  transition: background 500ms ease;
+}
+/*----------------------Admin End--------------*/
+
+
+
+/*----------------------Admin Page--------------------------*/
+.aamu-logo{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.aamu-logo{
+  position: absolute;
+  width: 125px;
+  height: 90px;
+  margin-top: 5px;
+}
+.algin-right{
+  right: 0
+}
+.register-container {
+  background: linear-gradient(to bottom, rgb(138, 54, 54), rgba(108, 108, 108, 1)); /* Vertical gradient */
+  width: 100vw;
+  height: 100vh;
+  min-height: 550px;
+}
+
+.register-text{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 35pt;
+  font-family: 'Mplus 1p', Arial, Helvetica, sans-serif;
+  letter-spacing: 15px;
+  color: rgba(245, 245, 245, 0.784);
+}
+
+.register-body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.register-upload-body{
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+  background-color: rgb(97, 25, 25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider{
+  margin: 25px;
+  border: 1.69px #FFBBBB solid;
+  width: 90%;
+}
+
+.register-upload-text{
+  color: white;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25pt;
+  letter-spacing: 5px;
+}
+
+.upload-items{
+  width: 90%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22pt;
+}
+
+.item-label{
+  width: 40%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7b0b0ee;
+  color: #eeee;
+}
+
+.item-input{
+  width: 57%;
+  height: 45px;
+  background-color: #b7b0b0ee;
+  align-self: flex-end;
+  border:none;
+  
+}
+
+.register-button{
+  background-color: rgb(101, 91, 91);
+  color: white;
+  font-size: 20pt;
+  letter-spacing: 2px;
+}
+
+.register-button:hover{
+  background-color: rgb(66, 65, 65);
+  color: white;
+  transition: background 500ms ease;
+}
+/*----------------------register End--------------*/
