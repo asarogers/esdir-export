@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import building from "../images/building.png";
 import signInIcon from "../images/SignIn.png";
+import emailIcon from "../images/envelope-solid.svg"
+import lockIcon from "../images/lock-solid.svg"
 
 const Register = () => {
   return (
@@ -50,7 +52,7 @@ const Register = () => {
                 <div className="image-holder">
                   <img
                     className="account-image"
-                    src={signInIcon}
+                    src={emailIcon}
                     alt="Sign In Icon"
                   />
                 </div>
@@ -60,7 +62,7 @@ const Register = () => {
                 <div className="image-holder">
                   <img
                     className="account-image"
-                    src={signInIcon}
+                    src={lockIcon}
                     alt="Sign In Icon"
                   />
                 </div>
@@ -70,7 +72,7 @@ const Register = () => {
                 <div className="image-holder">
                   <img
                     className="account-image"
-                    src={signInIcon}
+                    src={lockIcon}
                     alt="Sign In Icon"
                   />
                 </div>
