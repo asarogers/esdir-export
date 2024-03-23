@@ -16,6 +16,15 @@ a{
 button{
   cursor: pointer;
 }
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
 /*-----------------------navbar----------------------- */
 .navbar{
   display: flex;
@@ -58,6 +67,7 @@ button{
 .cart-text{
   display: flex;
   justify-content: center;
+  
 
 }
 
@@ -103,6 +113,8 @@ button{
 
 
 
+
+
 .location-form{
   background-color: rgb(74, 31, 31);
   height: 70%;
@@ -137,10 +149,12 @@ button{
 .btn-cartpage{
   margin-top: 30px;
   font-size: 15pt;
+  
   padding: 15px;
   background: rgb(138, 120, 120);
   border: none;
   border-radius: 5px;
+  color: rgb(253, 253, 253);
 }
 
 
@@ -260,112 +274,227 @@ button{
 
 
 /*----------------------Register Page--------------------------*/
-.aamu-logo{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-}
-.aamu-logo{
-  position: absolute;
-  width: 125px;
-  height: 90px;
-  margin-top: 5px;
-}
-.algin-right{
-  right: 0
-}
+
 .register-container {
-  background: linear-gradient(to bottom, rgb(74, 52, 52), rgb(3, 2, 2)); /* Vertical gradient */
+  background: linear-gradient(to bottom, rgb(88, 59, 59), rgb(44, 3, 3) 90%); /* Vertical gradient */
   width: 100vw;
   height: 100vh;
-  min-height: 550px;
+  min-width: 900px;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
 }
 
-.register-text{
+.register-title {
   height: 100px;
-  display: flex;
-  align-items: center;
-  font-size: 35pt;
+  font-size: 35pt;  
   font-family: 'Mplus 1p', Arial, Helvetica, sans-serif;
-  letter-spacing: 15px;
+  letter-spacing: 30px;
   color: rgba(245, 245, 245, 0.784);
-}
-
-.register-body{
-  width: 100%;
-  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  
-  
 }
 
-.register-upload-body{
+.register-body {
+  background:linear-gradient(to bottom, #cf9f9f, rgba(108, 108, 108, 1)); /* Vertical gradient */;
   width: 80%;
   height: 80%;
-  max-width: 800px;
+  max-width: 1100px;
+  max-height: 800px;
+  min-width: inherit;
   background-color:  rgb(75, 61, 61);
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.divider{
-  margin: 25px;
-  border: 1.69px #FFBBBB solid;
-  width: 90%;
+.register-left-container{
+  background-color: #570505;
+  width: 50%;
+  height: 80%;
+  margin: 50px;
+  border-radius: 25px 25px;
 }
 
-.register-upload-text{
+.grey-bar{
+  background: grey;
+  border-radius: 25px 25px 0px 0px;
+  height: 45px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.register-text{
   color: white;
   width: 100%;
-  height: 35px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100px;
   font-size: 25pt;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
 
-.upload-items{
-  width: 90%;
-  margin: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 22pt;
+
+.image-container{
+  width: 100%;
 }
 
-.item-label{
-  width: 40%;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #695e5eee;
-  color: #ffffffee;
-}
-
-.item-input{
-  width: 57%;
-  height: 45px;
-  background-color: #7f7272ee;
-  align-self: flex-end;
-  border:none;
-  
+.register-image{
+  height: inherit; /*inherits from the image-container */
+  width: inherit;
 }
 
 .register-button{
-  background-color: rgb(163, 158, 158);
-  color: white;
+  width: 120px;
+  height: 50px;
   font-size: 20pt;
-  letter-spacing: 2px;
 }
 
-.register-button:hover{
-  background-color: rgb(66, 65, 65);
+.create-account-text{
+  margin-top: 20px;
   color: white;
-  transition: background 500ms ease;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  letter-spacing: 10px;
+  font-weight: 900;
+  font-size: 25pt;
+}
+
+.register-form{
+  width: 100%;
+}
+
+.account-image{
+  width: 35px;
+  height: 35px;
+}
+
+.account-item{
+  display: flex;
+  height: inherit;
+  margin-bottom: 10px;
+}
+
+.account-input{
+  width: 60%;
+  background: #f8c9c9;
+  height: inherit;
+  border: 0;
+  font-size: 25pt;
+  text-align: start;
+  border-radius: 0px 5px 5px 0px;
+  
+}
+
+.image-holder{
+  width: 30%;
+  height: 50px;
+  background: #f8c9c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.register-button-dark{
+  width: 90%;
+  height: 50px;
+  font-size: 20pt;
+  color: #a14545;
+  background: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*----------------------register End--------------*/
+
+/*-------------------------sign in ---------------------*/
+.signin-title{
+  margin: 25px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70pt;
+  letter-spacing: 5px;
+}
+
+
+.signin-items{
+  width: 60%;
+  font-size: 22pt;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.signin-label{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eeee;
+}
+
+.signin-input{
+  width: 100%;
+  height: 45px;
+  background-color: #b7b0b0ee;
+  align-self: flex-end;
+  border:none;  
+}
+
+.signin-button{
+  width: 90%;
+  height: 50px;
+  font-size: 25pt;
+  color: #a14545;
+  background: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+}
+
+.signin-btn-container{
+  width: 40%;
+  height: 50px;
+}
+
+.signin-bottom-container{
+  width: 100%;
+  display: flex;
+}
+
+.signin-divider{
+  margin: 25px;
+  border: 1.69px #cfc9c9 solid;
+  width: 30%;
+}
+
+.signin-text{
+  color: white;
+  height: 50px;
+  display: flex; 
+  align-items: center;
+  
+}
+
+.newuser-text{
+  color: rgb(179, 172, 172);
+  height: 30px;
+  display: flex; 
+  align-items: center;
+}
+
+.forgot{
+  color: rgb(179, 172, 172);
+}
+ /* item-label item-input */

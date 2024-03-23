@@ -1,37 +1,95 @@
 import Navbar from "../components/Navbar";
+import building from "../images/building.png";
+import signInIcon from "../images/SignIn.png";
+import emailIcon from "../images/envelope-solid.svg"
+import lockIcon from "../images/lock-solid.svg"
+
 const Register = () => {
-
-
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="register-container">
-      
+      <main className="register-container">
+        <h1 className="register-title">Welcome to ESDIR</h1>
         <div className="register-body">
-          <div className="register-text">Welcome to ESDIR </div>
-          <div className="register-upload-body">
-            <div className="divider"/>
-            <div className="register-upload-text"> Upload a New Building</div>
-            <div className="divider"/>
-
-            <div className="upload-items">
-              <label className="item-label">New Building</label>
-              <input className="item-input"/>
+          <section className="register-left-container float-left">
+            <div className="grey-bar"></div>
+            <p className="register-text">Glad to see you again!</p>
+            <div className="image-container">
+              <img
+                className="register-image"
+                src={building}
+                alt="Building Image"
+              />
+              <div className="btn-container">
+                <button className="register-button">Sign In</button>
+              </div>
             </div>
-            <div className="upload-items">
-              <label className="item-label">Coordinates</label>
-              <input className="item-input"/>
-            </div>
-            <div className="btn-container">
-              <button className="btn-cartpage register-button">Submit</button>
-            </div>
-          </div>
+          </section>
+          <section className="float-right">
+            <h2 className="create-account-text">Create Account</h2>
+            <form className="register-form">
+              <div className="account-item">
+                <div className="image-holder">
+                  <img
+                    className="account-image"
+                    src={signInIcon}
+                    alt="Sign In Icon"
+                  />
+                </div>
+                <input className="account-input" placeholder="First Name" />
+              </div>
+              <div className="account-item">
+                <div className="image-holder">
+                  <img
+                    className="account-image"
+                    src={signInIcon}
+                    alt="Sign In Icon"
+                  />
+                </div>
+                <input className="account-input" placeholder="Last Name" />
+              </div>
+              <div className="account-item">
+                <div className="image-holder">
+                  <img
+                    className="account-image"
+                    src={emailIcon}
+                    alt="Sign In Icon"
+                  />
+                </div>
+                <input className="account-input" placeholder="Email" />
+              </div>
+              <div className="account-item">
+                <div className="image-holder">
+                  <img
+                    className="account-image"
+                    src={lockIcon}
+                    alt="Sign In Icon"
+                  />
+                </div>
+                <input className="account-input" placeholder="Password" />
+              </div>
+              <div className="account-item">
+                <div className="image-holder">
+                  <img
+                    className="account-image"
+                    src={lockIcon}
+                    alt="Sign In Icon"
+                  />
+                </div>
+                <input
+                  className="account-input"
+                  placeholder="Confirm Password"
+                />
+              </div>
+              <div className="btn-container-dark">
+              <button className="register-button-dark">Register</button>
+              </div>
+            </form>
+          </section>
         </div>
-      </div>
-    </div>
+      </main>
+    </>
   );
 };
 
 export default Register;
-
-

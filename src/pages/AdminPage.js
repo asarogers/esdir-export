@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import AmmuLogo from "../images/aamu_logo.jpg"
+
 const AdminPage = () => {
   return (
     <div>

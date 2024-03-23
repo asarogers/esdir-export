@@ -4,7 +4,7 @@ function Home({ order = {}, setOrder, robotPosition, setRobotPosition }) {
     <div>
       <Navbar />
       <div className="home-container">
-        <div className="location-container">
+        <div className="location-container float-left">
           <div className="location-form">
             <div className="form-items">
               <h2 className="form-items-text">Pick-Up Location</h2>
@@ -23,7 +23,7 @@ function Home({ order = {}, setOrder, robotPosition, setRobotPosition }) {
             </div>
           </div>
         </div>
-        <div className="map-container">Map Container</div>
+        <div className="map-container float-right">Map Container</div>
       </div>
     </div>
   );
