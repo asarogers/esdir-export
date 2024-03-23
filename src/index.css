@@ -13,11 +13,23 @@ a{
   color:white;
 }
 
+button{
+  cursor: pointer;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
 /*-----------------------navbar----------------------- */
 .navbar{
   display: flex;
   justify-content: space-evenly;
-  background: rgba(95, 2, 2, 0.904);
+  background: rgb(74, 31, 31);
   height: 40px;
   font-size: 1.3rem;
   font-family: 'Mplus 1p', sans-serif;
@@ -33,7 +45,7 @@ a{
 
 /*----------------------Cart Page--------------------------*/
 .container {
-  background: linear-gradient(to bottom, rgb(93, 55, 55), rgb(12, 11, 11)); /* Vertical gradient */
+  background: linear-gradient(to bottom, rgb(74, 52, 52), rgb(3, 2, 2)); /* Vertical gradient */
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -44,9 +56,7 @@ a{
 .inner-container{
   width: 80%;
   height: 80%;
-  background-color: rgb(171, 171, 171);
-  opacity: 0.5;
-  border-radius: 15px;
+  background-color: rgb(90, 75, 75);
 }
 
 .btn-container{
@@ -66,11 +76,15 @@ a{
   border: 2px solid black; 
   color: white;
 }
+.continue-shopping-button:hover{
+  background: rgb(105, 59, 59);
+  transition: background 500ms ease;
+}
 /*----------------------Cart Page End--------------*/
 
 /*----------------------home page------------------------*/
 .home-container{
-  background: linear-gradient(to bottom, rgb(93, 55, 55), rgb(12, 11, 11)); /* Vertical gradient */
+  background: linear-gradient(to bottom, rgb(72, 11, 11), rgba(108, 108, 108, 1)); /* Vertical gradient */
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -78,7 +92,7 @@ a{
 }
 .map-container{
   float: right;
-  background-color: rgb(162, 144, 144);
+  background-color: rgb(157, 152, 152);
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -89,7 +103,7 @@ a{
 
 .location-container{
   float: left;
-  background: linear-gradient(to bottom, rgb(93, 55, 55), rgb(12, 11, 11)); /* Vertical gradient */
+  background-color: rgb(74, 52, 52);
   width: 50vw;
   height: 100vh;
   justify-content: center;
@@ -99,8 +113,10 @@ a{
 
 
 
+
+
 .location-form{
-  background-color: rgb(93, 70, 70);
+  background-color: rgb(74, 31, 31);
   height: 70%;
   width: 85%;
   display: flex;
@@ -135,7 +151,7 @@ a{
   font-size: 15pt;
   
   padding: 15px;
-  background: linear-gradient(to bottom, rgb(136, 135, 135), rgb(97, 95, 95)); /* Vertical gradient */
+  background: rgb(138, 120, 120);
   border: none;
   border-radius: 5px;
   color: rgb(253, 253, 253);
@@ -143,3 +159,342 @@ a{
 
 
 /*----------------------home page eng-----------------------*/
+
+/*----------------------Admin Page--------------------------*/
+.aamu-logo{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.aamu-logo{
+  position: absolute;
+  width: 125px;
+  height: 90px;
+  margin-top: 5px;
+}
+.algin-right{
+  right: 0
+}
+.admin-container {
+  background: linear-gradient(to bottom, rgb(74, 52, 52), rgb(3, 2, 2)); /* Vertical gradient */
+  width: 100vw;
+  height: 100vh;
+  min-height: 550px;
+}
+
+.admin-text{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 35pt;
+  font-family: 'Mplus 1p', Arial, Helvetica, sans-serif;
+  letter-spacing: 15px;
+  color: rgba(245, 245, 245, 0.784);
+}
+
+.admin-body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.admin-upload-body{
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+  background-color: rgb(75, 61, 61);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider{
+  margin: 25px;
+  border: 1.69px #FFBBBB solid;
+  width: 90%;
+}
+
+.admin-upload-text{
+  color: white;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25pt;
+  letter-spacing: 5px;
+}
+
+.upload-items{
+  width: 90%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22pt;
+}
+
+.item-label{
+  width: 40%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7b0b0ee;
+  color: #eeee;
+}
+
+.item-input{
+  width: 57%;
+  height: 45px;
+  background-color: #b7b0b0ee;
+  align-self: flex-end;
+  border:none;
+  
+}
+
+.admin-button{
+  background-color: rgb(101, 91, 91);
+  color: white;
+  font-size: 20pt;
+  letter-spacing: 2px;
+}
+
+.admin-button:hover{
+  background-color: rgb(66, 65, 65);
+  color: white;
+  transition: background 500ms ease;
+}
+/*----------------------Admin End--------------*/
+
+
+
+/*----------------------Register Page--------------------------*/
+
+.register-container {
+  background: linear-gradient(to bottom, rgb(88, 59, 59), rgb(44, 3, 3) 90%); /* Vertical gradient */
+  width: 100vw;
+  height: 100vh;
+  min-width: 900px;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.register-title {
+  height: 100px;
+  font-size: 35pt;  
+  font-family: 'Mplus 1p', Arial, Helvetica, sans-serif;
+  letter-spacing: 30px;
+  color: rgba(245, 245, 245, 0.784);
+  display: flex;
+  align-items: center;
+}
+
+.register-body {
+  background:linear-gradient(to bottom, #cf9f9f, rgba(108, 108, 108, 1)); /* Vertical gradient */;
+  width: 80%;
+  height: 80%;
+  max-width: 1100px;
+  max-height: 800px;
+  min-width: inherit;
+  background-color:  rgb(75, 61, 61);
+  border-radius: 10px;
+  display: flex;
+}
+
+.register-left-container{
+  background-color: #570505;
+  width: 50%;
+  height: 80%;
+  margin: 50px;
+  border-radius: 25px 25px;
+}
+
+.grey-bar{
+  background: grey;
+  border-radius: 25px 25px 0px 0px;
+  height: 45px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.register-text{
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 25pt;
+  letter-spacing: 10px;
+}
+
+
+.image-container{
+  width: 100%;
+}
+
+.register-image{
+  height: inherit; /*inherits from the image-container */
+  width: inherit;
+}
+
+.register-button{
+  width: 120px;
+  height: 50px;
+  font-size: 20pt;
+}
+
+.create-account-text{
+  margin-top: 20px;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  letter-spacing: 10px;
+  font-weight: 900;
+  font-size: 25pt;
+}
+
+.register-form{
+  width: 100%;
+}
+
+.account-image{
+  width: 35px;
+  height: 35px;
+}
+
+.account-item{
+  display: flex;
+  height: inherit;
+  margin-bottom: 10px;
+}
+
+.account-input{
+  width: 60%;
+  background: #f8c9c9;
+  height: inherit;
+  border: 0;
+  font-size: 25pt;
+  text-align: start;
+  border-radius: 0px 5px 5px 0px;
+  
+}
+
+.image-holder{
+  width: 30%;
+  height: 50px;
+  background: #f8c9c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.register-button-dark{
+  width: 90%;
+  height: 50px;
+  font-size: 20pt;
+  color: #a14545;
+  background: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*----------------------register End--------------*/
+
+/*-------------------------sign in ---------------------*/
+.signin-title{
+  margin: 25px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70pt;
+  letter-spacing: 5px;
+}
+
+
+.signin-items{
+  width: 60%;
+  font-size: 22pt;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.signin-label{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eeee;
+}
+
+.signin-input{
+  width: 100%;
+  height: 45px;
+  background-color: #b7b0b0ee;
+  align-self: flex-end;
+  border:none;  
+}
+
+.signin-button{
+  width: 90%;
+  height: 50px;
+  font-size: 25pt;
+  color: #a14545;
+  background: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+}
+
+.signin-btn-container{
+  width: 40%;
+  height: 50px;
+}
+
+.signin-bottom-container{
+  width: 100%;
+  display: flex;
+}
+
+.signin-divider{
+  margin: 25px;
+  border: 1.69px #cfc9c9 solid;
+  width: 30%;
+}
+
+.signin-text{
+  color: white;
+  height: 50px;
+  display: flex; 
+  align-items: center;
+  
+}
+
+.newuser-text{
+  color: rgb(179, 172, 172);
+  height: 30px;
+  display: flex; 
+  align-items: center;
+}
+
+.forgot{
+  color: rgb(179, 172, 172);
+}
+ /* item-label item-input */

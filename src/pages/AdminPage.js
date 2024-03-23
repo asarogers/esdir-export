@@ -1,31 +1,38 @@
 import Navbar from "../components/Navbar";
-const AdminPage = () => {
+import AmmuLogo from "../images/aamu_logo.jpg"
 
+const AdminPage = () => {
   return (
-    <div className="upload-body">
-     <div className="frame">
-      <div className="overlap-wrapper">
-        <div className="overlap">
-          <div className="overlap-group">
-            <div className="rectangle" />
-            <div className="text-wrapper">Upload a New Building</div>
-            <img className="line" alt="Line" src="line-1.svg" />
-            <img className="img" alt="Line" src="line-2.svg" />
-            <div className="div" />
-            <div className="rectangle-2" />
-            <div className="text-wrapper-2">New Building</div>
-            <div className="rectangle-3" />
-            <div className="rectangle-4" />
-            <div className="text-wrapper-3">Coordinates</div>
-            <div className="rectangle-5" />
-            <div className="text-wrapper-4">Submit</div>
-            <img className="AAMU-logo-picture" alt="Aamu logo picture" src="AAMU-logo-picture-1.png" />
-            <img className="AAMU-logo-picture-2" alt="Aamu logo picture" src="AAMU-logo-picture-2.png" />
+    <div>
+      <Navbar />
+      <div className="admin-container">
+      <div className="aamu-logo ">
+        <img src={AmmuLogo} style={{width: "inherit", height: "inherit"}}alt="Ammu Logo" />
+        </div>
+        <div className="aamu-logo algin-right">
+        <img src={AmmuLogo} style={{width: "inherit", height: "inherit"}}alt="Ammu Logo" />
+        </div>
+        <div className="admin-body">
+          <div className="admin-text">Administration</div>
+          <div className="admin-upload-body">
+            <div className="divider"/>
+            <div className="admin-upload-text"> Upload a New Building</div>
+            <div className="divider"/>
+
+            <div className="upload-items">
+              <label className="item-label">New Building</label>
+              <input className="item-input"/>
+            </div>
+            <div className="upload-items">
+              <label className="item-label">Coordinates</label>
+              <input className="item-input"/>
+            </div>
+            <div className="btn-container">
+              <button className="btn-cartpage admin-button">Submit</button>
+            </div>
           </div>
-          <div className="text-wrapper-5">Administration</div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
