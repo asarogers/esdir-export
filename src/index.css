@@ -405,5 +405,93 @@ button{
   border: none;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 /*----------------------register End--------------*/
+
+/*-------------------------sign in ---------------------*/
+.signin-title{
+  margin: 25px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70pt;
+  letter-spacing: 5px;
+}
+
+
+.signin-items{
+  width: 60%;
+  font-size: 22pt;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+
+.signin-label{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eeee;
+}
+
+.signin-input{
+  width: 100%;
+  height: 45px;
+  background-color: #b7b0b0ee;
+  align-self: flex-end;
+  border:none;  
+}
+
+.signin-button{
+  width: 90%;
+  height: 50px;
+  font-size: 25pt;
+  color: #a14545;
+  background: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+}
+
+.signin-btn-container{
+  width: 40%;
+  height: 50px;
+}
+
+.signin-bottom-container{
+  width: 100%;
+  display: flex;
+}
+
+.signin-divider{
+  margin: 25px;
+  border: 1.69px #cfc9c9 solid;
+  width: 30%;
+}
+
+.signin-text{
+  color: white;
+  height: 50px;
+  display: flex; 
+  align-items: center;
+  
+}
+
+.newuser-text{
+  color: rgb(179, 172, 172);
+  height: 30px;
+  display: flex; 
+  align-items: center;
+}
+
+.forgot{
+  color: rgb(179, 172, 172);
+}
+ /* item-label item-input */
