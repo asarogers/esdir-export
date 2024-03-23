@@ -16,6 +16,15 @@ a{
 button{
   cursor: pointer;
 }
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
 /*-----------------------navbar----------------------- */
 .navbar{
   display: flex;
@@ -81,7 +90,6 @@ button{
 
 }
 .map-container{
-  float: right;
   background-color: rgb(189, 154, 154);
   width: 50vw;
   height: 100vh;
@@ -100,6 +108,8 @@ button{
   align-items: center;
   display: flex;
 }
+
+
 
 
 
@@ -259,113 +269,30 @@ button{
 
 
 
-/*----------------------Admin Page--------------------------*/
-.aamu-logo{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-}
-.aamu-logo{
-  position: absolute;
-  width: 125px;
-  height: 90px;
-  margin-top: 5px;
-}
-.algin-right{
-  right: 0
-}
+/*----------------------Register Page--------------------------*/
+
 .register-container {
-  background: linear-gradient(to bottom, rgb(138, 54, 54), rgba(108, 108, 108, 1)); /* Vertical gradient */
+  background: linear-gradient(to bottom, rgb(88, 59, 59), rgb(44, 3, 3) 90%); /* Vertical gradient */
   width: 100vw;
   height: 100vh;
-  min-height: 550px;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
 }
 
-.register-text{
+.register-title {
   height: 100px;
-  display: flex;
-  align-items: center;
-  font-size: 35pt;
+  font-size: 35pt;  
   font-family: 'Mplus 1p', Arial, Helvetica, sans-serif;
-  letter-spacing: 15px;
+  letter-spacing: 30px;
   color: rgba(245, 245, 245, 0.784);
-}
-
-.register-body{
-  width: 100%;
-  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  
-  
 }
 
-.register-upload-body{
+.register-body {
+  background: #FFBBBB;
   width: 80%;
-  height: 80%;
-  max-width: 800px;
-  background-color: rgb(97, 25, 25);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.divider{
-  margin: 25px;
-  border: 1.69px #FFBBBB solid;
-  width: 90%;
-}
-
-.register-upload-text{
-  color: white;
-  width: 100%;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25pt;
-  letter-spacing: 5px;
-}
-
-.upload-items{
-  width: 90%;
-  margin: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 22pt;
-}
-
-.item-label{
-  width: 40%;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #b7b0b0ee;
-  color: #eeee;
-}
-
-.item-input{
-  width: 57%;
-  height: 45px;
-  background-color: #b7b0b0ee;
-  align-self: flex-end;
-  border:none;
-  
-}
-
-.register-button{
-  background-color: rgb(101, 91, 91);
-  color: white;
-  font-size: 20pt;
-  letter-spacing: 2px;
-}
-
-.register-button:hover{
-  background-color: rgb(66, 65, 65);
-  color: white;
-  transition: background 500ms ease;
+  height: 75%;
 }
 /*----------------------register End--------------*/
