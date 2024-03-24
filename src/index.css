@@ -276,7 +276,7 @@ button{
 /*----------------------Register Page--------------------------*/
 
 .register-container {
-  background: linear-gradient(to bottom, rgb(88, 59, 59), rgb(44, 3, 3) 90%); /* Vertical gradient */
+  background: linear-gradient(to bottom, rgb(74, 52, 52),rgb(3, 2, 2)); /* Vertical gradient */
   width: 100vw;
   height: 100vh;
   min-width: 900px;
@@ -296,7 +296,7 @@ button{
 }
 
 .register-body {
-  background:linear-gradient(to bottom, #cf9f9f, rgba(108, 108, 108, 1)); /* Vertical gradient */;
+  background:linear-gradient(to bottom, #926a6a, rgb(59, 54, 54)); /* Vertical gradient */;
   width: 80%;
   height: 80%;
   max-width: 1100px;
@@ -308,7 +308,7 @@ button{
 }
 
 .register-left-container{
-  background-color: #570505;
+  background-color: #3e1414;
   width: 50%;
   height: 80%;
   margin: 50px;
@@ -316,7 +316,7 @@ button{
 }
 
 .grey-bar{
-  background: grey;
+  background: rgb(99, 94, 94);
   border-radius: 25px 25px 0px 0px;
   height: 45px;
   width: 100%;
@@ -324,14 +324,14 @@ button{
 }
 
 .register-text{
-  color: white;
+  color: rgb(253, 253, 253);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
-  font-size: 25pt;
-  letter-spacing: 10px;
+  font-size: 20pt;
+  letter-spacing: 6px;
 }
 
 
@@ -379,20 +379,18 @@ button{
 }
 
 .account-input{
-  width: 60%;
-  background: #f8c9c9;
+  width: 65%;
+  background: #977777;
   height: inherit;
   border: 0;
-  font-size: 25pt;
+  font-size: 22pt;
   text-align: start;
   border-radius: 0px 5px 5px 0px;
-  
 }
-
 .image-holder{
   width: 30%;
   height: 50px;
-  background: #f8c9c9;
+  background: #977777;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,10 +398,10 @@ button{
 }
 
 .register-button-dark{
-  width: 90%;
+  width: 96%;
   height: 50px;
   font-size: 20pt;
-  color: #a14545;
+  color: #ce1d1d;
   background: black;
   border: none;
   display: flex;
