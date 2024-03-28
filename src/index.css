@@ -508,36 +508,30 @@ button{
 
  /* --------------       About page     ----------------    */
 .e-s-d-i-r{
-  /*margin: 25px;
-  background-color: linear-gradient(to bottom, #555252, rgb(225, 222, 222));
-  width: 100%;*/
-  position: absolute; 
-            top: 0%;
-            right: 23%; 
- 
-            font-size: 40px; 
-            
-            background: linear-gradient(to bottom, #b8b1b1, 
-            #645f5f); 
-                    -webkit-text-fill-color: transparent;
-                    -webkit-background-clip: text;
+  position: relative; 
+  font-size: 40px; 
+  width:100vw;
+  height: 100px;
+  background: linear-gradient(to bottom, #b8b1b1, 
+  #645f5f); 
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 70pt;
   letter-spacing: 5px;
   color: #ffffff;
+  margin: 0;
 }
 
 .About-container {
   background: linear-gradient(to bottom, rgb(74, 52, 52), rgb(3, 2, 2)); /* Vertical gradient */
   width: 100vw;
-  height: 100vh;
   min-height: 550px;
 }
 
 .esdir-name{
-  
   font-size: 40px; 
   text-align: center;
   display: flex;
@@ -553,34 +547,39 @@ button{
 }
 
 .ESDIR-description{
-  right: 23%; 
- 
-            font-size: 40px; 
-            
-            background: linear-gradient(to bottom, #b8b1b1, 
-            #645f5f); 
-                    -webkit-text-fill-color: transparent;
-                    -webkit-background-clip: text;
+  display: flex;
+  text-align: center;
+  font-size: 23pt; 
+  background: linear-gradient(to bottom, #b8b1b1, 
+#645f5f); 
+
+ -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.esdir-text{
+  font-size: 15pt;
+  float: right;
+  width: 60%;
+  color: white;
+  line-height: 1.5;
+  word-spacing: 5px;
+}
+.text-robot-container{
+  width: 100vw;
+  display: flex;
+}
+.robot{
+  height: inherit;
+  width: inherit;
+}
+
+.robot-container{
+  width: 400px;
 }
 
 .div{
-  right: 23%; 
- 
-            font-size: 40px; 
-            
-            background: linear-gradient(to bottom, #b8b1b1, 
-            #645f5f); 
-                    -webkit-text-fill-color: transparent;
-                    -webkit-background-clip: text;
-}
-
-.p{
-  right: 23%; 
- 
-            font-size: 40px; 
-            
-            background: linear-gradient(to bottom, #b8b1b1, 
-            #645f5f); 
-                    -webkit-text-fill-color: transparent;
-                    -webkit-background-clip: text;
+  color: white;
+  padding-bottom: 120px;
+  text-align: end;
+  width: 100vw;
 }
