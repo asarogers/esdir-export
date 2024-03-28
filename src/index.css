@@ -84,7 +84,7 @@ button{
 
 /*----------------------home page------------------------*/
 .home-container{
-  background: linear-gradient(to bottom, rgb(72, 11, 11), rgba(108, 108, 108, 1)); /* Vertical gradient */
+  background: linear-gradient(to bottom, rgb(80, 44, 44), rgb(0, 0, 0)); /* Vertical gradient */
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -92,8 +92,8 @@ button{
 }
 .map-container{
   float: right;
-  background-color: rgb(157, 152, 152);
-  width: 50vw;
+  background-color: rgb(100, 94, 94);
+  width: 60vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -103,12 +103,14 @@ button{
 
 .location-container{
   float: left;
-  background-color: rgb(74, 52, 52);
+  background-color:rgba(44, 38, 34, 0.537);
   width: 50vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
   display: flex;
+  
+  
 }
 
 
@@ -122,6 +124,7 @@ button{
   display: flex;
   flex-direction: column; /* Arrange items vertically */
   align-items: center; /* Center items horizontally */
+  border-radius: 10px;
 }
 
 .form-items{
@@ -150,11 +153,11 @@ button{
   margin-top: 30px;
   font-size: 15pt;
   
-  padding: 15px;
-  background: rgb(138, 120, 120);
+  padding: 20px;
+  background: rgb(115, 97, 97);
   border: none;
   border-radius: 5px;
-  color: rgb(253, 253, 253);
+  color: rgb(10, 9, 9);
 }
 
 
@@ -296,8 +299,8 @@ button{
 }
 
 .register-body {
-  background:linear-gradient(to bottom, #cf9f9f, rgba(108, 108, 108, 1)); /* Vertical gradient */;
-  width: 80%;
+  background:linear-gradient(to bottom, #bf8a8a, rgb(29, 25, 25)); /* Vertical gradient */;
+  width: 90%;
   height: 80%;
   max-width: 1100px;
   max-height: 800px;
@@ -330,7 +333,7 @@ button{
   justify-content: center;
   align-items: center;
   height: 100px;
-  font-size: 25pt;
+  font-size: 18pt;
   letter-spacing: 10px;
 }
 
@@ -345,14 +348,18 @@ button{
 }
 
 .register-button{
-  width: 120px;
+  background: #686868;
+  width: 200px;
   height: 50px;
   font-size: 20pt;
+  border-radius: 10px;
+  color :#dadada
+  
 }
 
 .create-account-text{
   margin-top: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -380,10 +387,10 @@ button{
 
 .account-input{
   width: 60%;
-  background: #f8c9c9;
+  background: #e9e8e895;
   height: inherit;
   border: 0;
-  font-size: 25pt;
+  font-size: 15pt;
   text-align: start;
   border-radius: 0px 5px 5px 0px;
   
@@ -392,7 +399,7 @@ button{
 .image-holder{
   width: 30%;
   height: 50px;
-  background: #f8c9c9;
+  background: #c6c1c18d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -408,14 +415,15 @@ button{
   border: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
+  border-radius: 10px;
 }
 /*----------------------register End--------------*/
 
 /*-------------------------sign in ---------------------*/
 .signin-title{
   margin: 25px;
-  color: white;
+  color: rgb(255, 255, 255);
   width: 100%;
   display: flex;
   align-items: center;
@@ -498,3 +506,83 @@ button{
   color: rgb(179, 172, 172);
 }
  /* item-label item-input */
+
+
+ /* --------------       About page     ----------------    */
+.e-s-d-i-r{
+  /*margin: 25px;
+  background-color: linear-gradient(to bottom, #555252, rgb(225, 222, 222));
+  width: 100%;*/
+  position: absolute; 
+            top: 0%;
+            right: 23%; 
+ 
+            font-size: 40px; 
+            
+            background: linear-gradient(to bottom, #b8b1b1, 
+            #645f5f); 
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70pt;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+.About-container {
+  background: linear-gradient(to bottom, rgb(74, 52, 52), rgb(3, 2, 2)); /* Vertical gradient */
+  width: 100vw;
+  height: 100vh;
+  min-height: 550px;
+}
+
+.esdir-name{
+  
+  font-size: 40px; 
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+            
+            background: linear-gradient(to bottom, #b8b1b1, 
+                    #645f5f); 
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                    display: flex;
+                    align-items: center;
+}
+
+.ESDIR-description{
+  right: 23%; 
+ 
+            font-size: 40px; 
+            
+            background: linear-gradient(to bottom, #b8b1b1, 
+            #645f5f); 
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+}
+
+.div{
+  right: 23%; 
+ 
+            font-size: 40px; 
+            
+            background: linear-gradient(to bottom, #b8b1b1, 
+            #645f5f); 
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+}
+
+.p{
+  right: 23%; 
+ 
+            font-size: 40px; 
+            
+            background: linear-gradient(to bottom, #b8b1b1, 
+            #645f5f); 
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+}
